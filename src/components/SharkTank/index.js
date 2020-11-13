@@ -15,6 +15,14 @@ class SharkTank extends Component {
     });
   }
 
+  sharkButton = () => {
+    const randomStudent = this.state.students[
+      Math.floor(Math.random() * this.state.students.length)
+    ];
+
+    studentData.followTheLight(randomStudent);
+  }
+
   render() {
     const { students } = this.state;
     const renderStudentToDom = () => students.map((student) => <LiveStudent key={student.id} student={student} />);
@@ -24,7 +32,7 @@ class SharkTank extends Component {
         <h1>Shark Tank</h1>
         <div className='SharkTank d-flex flex-wrap'>{renderStudentToDom()}</div>
         <br></br>
-        <button type='button' className='btn btn-danger btn-lg btn-blo'>Shark Attack!!!</button>
+        <button type='submit' className='btn btn-danger btn-lg btn-blo'onClick={this.sharkButton}>Shark Attack!!!</button>
       </div>
     );
   }

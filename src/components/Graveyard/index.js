@@ -9,7 +9,9 @@ export default class Graveyard extends Component {
 
   componentDidMount() {
     studentData.dearlyBeloved().then((response) => {
-      console.warn(response);
+      this.setState({
+        students: response,
+      });
     });
   }
 

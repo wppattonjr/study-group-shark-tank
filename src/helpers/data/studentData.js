@@ -16,10 +16,10 @@ const dearlyBeloved = () => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-const followTheLight = (id, studentObj) => new Promise((resolve, reject) => {
-  axios.patch(`{${baseUrl}/students/${id}.json`, studentObj.isDead, true, studentObj)
+const followTheLight = (studentObj) => new Promise((resolve, reject) => {
+  axios.patch(`${baseUrl}/students/${studentObj.id}.json`, { isDead: true })
     .then((response) => {
-      resolve(Object.values(response.data));
+      resolve(response.data);
     }).catch((error) => reject(error));
 });
 
