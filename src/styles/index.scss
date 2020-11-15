@@ -3,6 +3,22 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: rgb(54, 141, 197);
+  background-color: white;
   color: black;
+}
+
+.SharkTank {
+  background-image: url('https://cdn.pixabay.com/photo/2016/09/23/23/33/fractal-1690702_1280.jpg');
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Graveyard {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
 }
