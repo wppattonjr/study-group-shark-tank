@@ -12,5 +12,7 @@ The members of Evening Cohort 13 have been dropped into a shark tank. When the u
  - Bootstrap
  - jQuery
  
+ ![Shark Tank Screenshot](https://user-images.githubusercontent.com/63669713/99196796-34b5d500-2754-11eb-877e-8322cfda7094.png)
+ 
  ## Build Status
 [Shark Tank Live App](wendellp-shark-tank.netlify.app)
