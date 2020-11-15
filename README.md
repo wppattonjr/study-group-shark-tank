@@ -1,4 +1,4 @@
-# Shark Attack
+# Shark Tank
 This project was for me to create my own version of Pinterest. I was tasked to flex my CRUD muscles to create board, add pins, delete boards and pins, update boards and pins, as well as update boards and pins.
 
 ## Description
