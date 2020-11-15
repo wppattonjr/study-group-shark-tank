@@ -4,6 +4,7 @@ import GraveStone from '../GraveStone';
 
 export default class Graveyard extends Component {
   render() {
+    console.warn(this.props);
     const { students } = this.props;
     const renderStudentToDom = () => students.map((student) => <GraveStone key={student.id} student={student} />);
     return (
