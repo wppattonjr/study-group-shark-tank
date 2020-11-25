@@ -1,7 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad43b1b6-c3ff-472b-a454-5d14486e5dd9/deploy-status)](https://app.netlify.com/sites/wendellp-shark-tank/deploys)
 
 # Shark Tank
-This project was for me to create my own version of Pinterest. I was tasked to flex my CRUD muscles to create board, add pins, delete boards and pins, update boards and pins, as well as update boards and pins.
 
 ## Description
 
